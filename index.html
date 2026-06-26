@@ -3,42 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+    <title>Seleção Brasileira de Futebol Feminino</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f9;
             color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
         }
-        .card {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        header {
+            background-color: #009c3b; /* Verde do Brasil */
+            color: #ffdf00; /* Amarelo do Brasil */
             text-align: center;
-            max-width: 350px;
+            padding: 2rem 1rem;
         }
-        h1 {
-            color: #007acc;
+        nav {
+            background-color: #002776; /* Azul do Brasil */
+            padding: 0.5rem;
+            text-align: center;
         }
-        p {
-            font-size: 1.1em;
-            line-height: 1.6;
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #002776;
+            border-bottom: 2px solid #ffdf00;
+            padding-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <h1>Olá, Mundo! 👋</h1>
-        <p>Meu nome é <strong>[leticia hulak campos ]</strong> e este é o meu primeiro projeto web guardado no GitHub.</p>
-        <p>Estou aprendendo a programar e explorando novas tecnologias!</p>
+    <header>
+        <h1>Seleção Brasileira de Futebol Feminino</h1>
+        <p>História, Garra e Orgulho Verde e Amarelo</p>
+    </header>
+
+    <nav>
+        <a href="#historia">História</a>
+        <a href="#conquistas">Conquistas</a>
+        <a href="#importancia">Importância</a>
+    </nav>
+
+    <div class="container">
+        <section id="historia">
+            <h2>Nossa História</h2>
+            <p>O futebol feminino no Brasil enfrentou décadas de proibição oficial (entre 1941 e 1979), mas a paixão das mulheres pelo esporte nunca deixou a chama apagar. A primeira partida oficial da Seleção Brasileira Feminina aconteceu em 1986. Desde então, o Brasil se tornou a maior potência do futebol sul-americano e uma força respeitada globalmente.</p>
+        </section>
+
+        <section id="conquistas">
+            <h2>Principais Conquistas</h2>
+            <ul>
+                <li><strong>Copa América Feminina:</strong> Multi-campeã incontestável, dominando o cenário continental.</li>
+                <li><strong>Jogos Olímpicos:</strong> Medalhas de Prata históricas (Atenas 2004 e Pequim 2008), além de grandes campanhas recentes que mantêm o Brasil no topo.</li>
+                <li><strong>Copa do Mundo:</strong> Vice-campeã em 2007, revelando ao mundo a genialidade de jogadoras como Marta, a Rainha do Futebol.</li>
+            </ul>
+        </section>
+
+        <section id="importancia">
+            <h2>O Futuro e o Legado</h2>
+            <p>Com o crescimento do Brasileirão Feminino e a maior visibilidade dos campeonatos internacionais, a Seleção serve de inspiração para milhares de jovens jogadoras em todo o país. O foco atual está na renovação do elenco e na busca pelo tão sonhado título mundial.</p>
+        </section>
     </div>
+
+    <footer>
+        <p>Desenvolvido com ❤️ no meu primeiro site do GitHub Pages.</p>
+    </footer>
 
 </body>
 </html>
